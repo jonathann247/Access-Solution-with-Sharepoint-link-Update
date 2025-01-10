@@ -1,0 +1,5 @@
+DELETE *
+FROM [Top 10 Best Selling Products];
+INSERT  INTO [Top 10 Best Selling Products]([Category Name], [Product Name], [Units Sold]) 
+SELECT CategoryName, ProductName, UnitsSold
+FROM [10 best selling products];
